@@ -61,9 +61,9 @@ namespace Monkey
                 Console.Write('x');
 
                 Console.SetCursorPosition(34,2);
-                Console.Write("Score: {0}     Time: {1} ", Score, Falling);
+                Console.Write("Score: {0}", Score);
 
-                Thread.Sleep(70);
+                Thread.Sleep(50);
             }
         }
         void Input() 
